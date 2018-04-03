@@ -1,0 +1,15 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+    <template is="head" data="{{title: 'setTabBar'}}" />
+    <view class="page-body">
+        <view class="btn-area">
+            <button type="primary" bindtap="hideTabBar">隐藏tabBar</button>
+            <button type="primary" bindtap="showTabBar">显示tabBar</button>
+            <button type="primary" bindtap="setFirstTab">设置第一项tabBar</button>
+            <button type="primary" bindtap="setSecondTab">设置第二项tabBar</button>
+        </view>
+    </view>
+    <template is="foot" />
+</view>

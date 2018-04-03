@@ -1,0 +1,122 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.94",
+	"appid": "xxxxxxxxxxxxxxx",
+	"projectname": "%E8%AF%BE%E7%A8%8B-API",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "request",
+					"pathName": "page/API/pages/request/request",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "uploadFile",
+					"pathName": "page/API/pages/upload-file/upload-file",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "downloadFile",
+					"pathName": "page/API/pages/download-file/download-file",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "voiceRecord",
+					"pathName": "page/API/pages/voice/voice",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "webSocket",
+					"pathName": "page/API/pages/web-socket/web-socket",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "image",
+					"pathName": "page/API/pages/image/image",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "backgroundAudio",
+					"pathName": "page/API/pages/background-audio/background-audio",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "video",
+					"pathName": "page/API/pages/video/video",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "videoManager",
+					"pathName": "page/API/pages/videoManager/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "file",
+					"pathName": "page/API/pages/file/file",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "storage",
+					"pathName": "page/API/pages/storage/storage",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mapManager",
+					"pathName": "page/API/pages/mapManager/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "加速度计",
+					"pathName": "page/API/pages/on-accelerometer-change/on-accelerometer-change",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "toast",
+					"pathName": "page/API/pages/toast/toast",
+					"query": ""
+				}
+			]
+		}
+	}
+}

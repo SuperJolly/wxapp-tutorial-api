@@ -1,0 +1,15 @@
+<view class="section tc">
+    <video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+        enable-danmu danmu-btn controls></video>
+    <view class="btn-area">
+        <input type="text" value="{{inputValue}}" bindinput="inputChange" />
+        <view style="display:flex">
+            <button type="primary" disabled="{{inputValue == ''}}" bindtap="bindSendDanmu">发送弹幕</button>
+            <button type="primary"  bindtap="playVideo">播放</button>
+            <button type="warn"  bindtap="pauseVideo">暂停</button>
+        </view>
+        <button type="default"  bindtap="gotoPosition" style="line-height:70rpx;">跳转到01:35秒处</button>
+        <button type="default" bindtap="playByRate" style="line-height:70rpx;">按1.5倍速率播放</button>
+        <button type="primary" bindtap="requestFullScreen">进入全屏</button>
+    </view>
+</view>

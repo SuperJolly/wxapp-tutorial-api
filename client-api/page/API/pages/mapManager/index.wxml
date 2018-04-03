@@ -1,0 +1,9 @@
+<!-- map.wxml -->
+<map id="myMap" show-location markers="{{markers}}" style="width:750rpx;"/>
+
+<button type="primary" bindtap="getCenterLocation">获取位置</button>
+<button type="primary" bindtap="moveToLocation">移动位置</button>
+<button type="primary" bindtap="translateMarker">移动标注</button>
+<button type="primary" bindtap="includePoints">缩放视野展示所有坐标点</button>
+<button type="primary" bindtap="getRegion">获取当前视野范围</button>
+<button type="primary" bindtap="getScale">获取当前缩放级别</button>
