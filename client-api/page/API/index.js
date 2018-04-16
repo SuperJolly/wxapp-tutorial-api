@@ -2,7 +2,7 @@ var utils = require('../../util/util');
 Page({
   data: {
     list: [
-        {
+      {
         id: 'page',
         name: '界面',
         open: false,

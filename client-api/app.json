@@ -2,53 +2,43 @@
   "pages": [
     "page/API/index",
 
-    "page/API/pages/login/login",
-    "page/API/pages/get-user-info/get-user-info",
-    "page/API/pages/request-payment/request-payment",
-    "page/API/pages/share/share",
-    "page/API/pages/custom-message/custom-message",
-    "page/API/pages/template-message/template-message",
+    "page/API/pages/Device/accelerometer/on-accelerometer-change",
+    "page/API/pages/Device/compass/on-compass-change",
+    "page/API/pages/Device/makePhoneCall/make-phone-call",
+    "page/API/pages/Device/scanCode/scan-code/scan-code",
+    
+    "page/API/pages/File/file",
 
-    "page/API/pages/set-navigation-bar-title/set-navigation-bar-title",
-    "page/API/pages/tabBar/index",
-    "page/API/pages/navigation-bar-loading/navigation-bar-loading",
-    "page/API/pages/navigator/navigator",
-    "page/API/pages/pull-down-refresh/pull-down-refresh",
-    "page/API/pages/animation/animation",
-    "page/API/pages/scrollPage/index",
+    "page/API/pages/Interface/actionSheet/action-sheet",
+    "page/API/pages/Interface/animation/animation",
+    "page/API/pages/Interface/canvas/canvas",
+    "page/API/pages/Interface/modal/modal",
+    "page/API/pages/Interface/navigationBar/navigation-bar-loading",
+    "page/API/pages/Interface/navigator/navigator",
+    "page/API/pages/Interface/pullDownRefresh/pull-down-refresh",
+    "page/API/pages/Interface/scrollPage/index",
+    "page/API/pages/Interface/tabBar/index",
+    "page/API/pages/Interface/toast/toast",
 
-    "page/API/pages/action-sheet/action-sheet",
-    "page/API/pages/modal/modal",
-    "page/API/pages/toast/toast",
+    "page/API/pages/Location/chooseLocation/choose-location",
+    "page/API/pages/Location/getLocation/get-location",
+    "page/API/pages/Location/mapManager/index",
+    "page/API/pages/Location/openLocation/open-location",
 
-    "page/API/pages/get-network-type/get-network-type",
-    "page/API/pages/get-system-info/get-system-info",
-    "page/API/pages/on-compass-change/on-compass-change",
-    "page/API/pages/make-phone-call/make-phone-call",
-    "page/API/pages/scan-code/scan-code",
+    "page/API/pages/Media/backgroundAudio/background-audio",
+    "page/API/pages/Media/image/image",
+    "page/API/pages/Media/video/video",
+    "page/API/pages/Media/videoManager/index",
+    "page/API/pages/Media/voice/voice",
 
+    "page/API/pages/Network/downloadFile/download-file",
+    "page/API/pages/Network/getNetworkType/get-network-type",
+    "page/API/pages/Network/getSystemInfo/get-system-info",
+    "page/API/pages/Network/request/request",
+    "page/API/pages/Network/uploadFile/upload-file",
+    "page/API/pages/Network/websocket/web-socket",
 
-    "page/API/pages/request/request",
-    "page/API/pages/web-socket/web-socket",
-    "page/API/pages/upload-file/upload-file",
-    "page/API/pages/download-file/download-file",
-
-
-    "page/API/pages/image/image",
-    "page/API/pages/voice/voice",
-    "page/API/pages/file/file",
-    "page/API/pages/on-accelerometer-change/on-accelerometer-change",
-    "page/API/pages/canvas/canvas",
-    "page/API/pages/background-audio/background-audio",
-    "page/API/pages/video/video",
-    "page/API/pages/videoManager/index",
-
-    "page/API/pages/get-location/get-location",
-    "page/API/pages/open-location/open-location",
-    "page/API/pages/choose-location/choose-location",
-    "page/API/pages/mapManager/index",
-
-    "page/API/pages/storage/storage"
+    "page/API/pages/Storage/storage"
   ],
   "tabBar": {
     "list": [
@@ -59,7 +49,7 @@
         "selectedIconPath": "image/index.png"
       },
       {
-        "pagePath": "page/API/pages/tabBar/index",
+        "pagePath": "page/API/pages/Interface/tabBar/index",
         "text": "tabBar页面",
         "iconPath": "image/tabbar.png",
         "selectedIconPath": "image/tabbar.png"
