@@ -1,9 +1,4 @@
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
-
 <view class="container">
-  <template is="head" data="{{title: 'saveFile'}}"/>
-
   <view class="page-body">
     <view class="page-section">
       <view class="page-body-info">
@@ -29,6 +24,4 @@
   </view>
 
   <modal title="{{dialog.title}}" hidden="{{dialog.hidden}}" no-cancel bindconfirm="confirm">{{dialog.content}}</modal>
-
-  <template is="foot" />
 </view>
