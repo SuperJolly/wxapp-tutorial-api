@@ -1,4 +1,4 @@
-const uploadFileUrl = require('../../../../config').uploadFileUrl
+const uploadFileUrl = require('../../../../../config').uploadFileUrl
 
 Page({
   chooseImage: function() {

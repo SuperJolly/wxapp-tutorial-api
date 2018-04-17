@@ -1,4 +1,4 @@
-@import "../../../common/lib/weui.wxss";
+@import "../../../../common/lib/weui.wxss";
 
 .page-body-info {
   display: flex;

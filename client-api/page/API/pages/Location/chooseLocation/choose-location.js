@@ -1,4 +1,5 @@
-var util = require('../../../../util/util.js')
+var util = require('../../../../../util/util.js');
+
 var formatLocation = util.formatLocation
 
 Page({

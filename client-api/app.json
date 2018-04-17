@@ -5,8 +5,10 @@
     "page/API/pages/Device/accelerometer/on-accelerometer-change",
     "page/API/pages/Device/compass/on-compass-change",
     "page/API/pages/Device/makePhoneCall/make-phone-call",
-    "page/API/pages/Device/scanCode/scan-code/scan-code",
-    
+    "page/API/pages/Device/scanCode/scan-code",
+    "page/API/pages/Device/getNetworkType/get-network-type",
+    "page/API/pages/Device/getSystemInfo/get-system-info",
+
     "page/API/pages/File/file",
 
     "page/API/pages/Interface/actionSheet/action-sheet",
@@ -32,8 +34,6 @@
     "page/API/pages/Media/voice/voice",
 
     "page/API/pages/Network/downloadFile/download-file",
-    "page/API/pages/Network/getNetworkType/get-network-type",
-    "page/API/pages/Network/getSystemInfo/get-system-info",
     "page/API/pages/Network/request/request",
     "page/API/pages/Network/uploadFile/upload-file",
     "page/API/pages/Network/websocket/web-socket",

@@ -1,9 +1,4 @@
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
-
 <view class="container">
-  <template is="head" data="{{title: 'scanCode'}}"/>
-
   <view class="page-body">
     <view class="weui-cells__title">扫码结果</view>
     <view class="weui-cells weui-cells_after-title">
@@ -15,6 +10,4 @@
       <button type="primary" bindtap="scanCode">扫一扫</button>
     </view>
   </view>
-
-  <template is="foot" />
 </view>

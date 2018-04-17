@@ -1,9 +1,4 @@
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
-
 <view class="container">
-  <template is="head" data="{{title: 'choose/previewImage'}}"/>
-
   <view class="page-body">
     <form>
       <view class="page-section">
@@ -82,6 +77,4 @@
       </view>
     </form>
   </view>
-
-  <template is="foot" />
 </view>

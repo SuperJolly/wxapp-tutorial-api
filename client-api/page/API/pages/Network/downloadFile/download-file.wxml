@@ -1,9 +1,4 @@
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
-
 <view class="container">
-  <template is="head" data="{{title: 'downloadFile'}}"/>
-
   <view class="page-body">
     <image wx:if="{{imageSrc}}" src="{{imageSrc}}" mode="center" />
     <block wx:else>
@@ -17,6 +12,4 @@
       </view>
     </block>
   </view>
-
-  <template is="foot" />
 </view>

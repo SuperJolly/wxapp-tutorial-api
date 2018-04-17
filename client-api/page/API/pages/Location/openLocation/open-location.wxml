@@ -1,9 +1,4 @@
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
-
 <view class="container">
-  <template is="head" data="{{title: 'openLocation'}}"/>
-
   <view class="page-body">
     <view class="page-section">
       <form bindsubmit="openLocation">
@@ -47,6 +42,4 @@
       </form>
     </view>
   </view>
-
-  <template is="foot" />
 </view>

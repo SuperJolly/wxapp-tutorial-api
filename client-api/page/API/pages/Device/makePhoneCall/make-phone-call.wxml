@@ -1,9 +1,4 @@
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
-
 <view class="container">
-  <template is="head" data="{{title: 'makePhoneCall'}}"/>
-
   <view class="page-body">
     <view class="page-section">
       <view class="desc">请在下方输入电话号码</view>
@@ -13,6 +8,4 @@
       </view>
     </view>
   </view>
-
-  <template is="foot" />
 </view>

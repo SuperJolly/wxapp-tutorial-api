@@ -1,4 +1,4 @@
-const tunnelUrl = require('../../../../config').tunnelUrl
+const tunnelUrl = require('../../../../../config').tunnelUrl
 
 function showModal(title, content) {
   wx.showModal({

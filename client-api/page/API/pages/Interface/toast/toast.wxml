@@ -1,9 +1,4 @@
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
-
 <view class="container">
-  <template is="head" data="{{title: 'toast'}}"/>
-
   <view class="page-body">
     <view class="btn-area">
       <view class="body-view">
@@ -20,6 +15,4 @@
       </view>
     </view>
   </view>
-
-  <template is="foot" />
 </view>

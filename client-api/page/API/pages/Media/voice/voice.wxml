@@ -1,9 +1,4 @@
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
-
 <view class="container">
-  <template is="head" data="{{title: 'start/stopRecord、play/stopVoice'}}"/>
-
   <view class="page-body">
     <view class="page-section">
       <block wx:if="{{recording === false && playing === false && hasRecord === false}}">
@@ -67,6 +62,4 @@
       </block>
     </view>
   </view>
-
-  <template is="foot" />
 </view>

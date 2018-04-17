@@ -1,4 +1,4 @@
-@import "../../../common/lib/weui.wxss";
+@import "../../../../common/lib/weui.wxss";
 
 .weui-cell__bd{
   min-height: 48rpx;

@@ -1,9 +1,4 @@
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
-
 <view class="container">
-  <template is="head" data="{{title: 'backgroundAudio'}}"/>
-
   <view class="page-section">
     <view class="page-body-info">
       <text class="time-big">{{formatedPlayTime}}</text>
@@ -32,6 +27,4 @@
       <view class="page-body-button"></view>
     </view>
   </view>
-
-  <template is="foot" />
 </view>

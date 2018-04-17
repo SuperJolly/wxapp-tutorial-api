@@ -1,4 +1,4 @@
-const downloadFileUrl = require('../../../../config').downloadFileUrl
+const downloadFileUrl = require('../../../../../config').downloadFileUrl
 
 Page({
   downloadImage: function() {

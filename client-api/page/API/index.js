@@ -3,84 +3,107 @@ Page({
   data: {
     list: [
       {
-        id: 'page',
-        name: '界面',
-        open: false,
-        pages: [
-          {
-            zh: '设置导航条',
-            url: 'navigation-bar-loading/navigation-bar-loading'
-          }, {
-            zh: '设置tabBar',
-            url: 'tabBar/index',
-          }, {
-            zh: '页面跳转',
-            url: 'navigator/navigator'
-          }, {
-            zh: '页面滚动',
-            url: 'scrollPage/index'
-          }, {
-            zh: '下拉刷新',
-            url: 'pull-down-refresh/pull-down-refresh'
-          }, {
-            zh: '创建动画',
-            url: 'animation/animation'
-          }, {
-            zh: '创建绘画',
-            url: 'canvas/canvas'
-          }, {
-            zh: '显示操作菜单',
-            url: 'action-sheet/action-sheet'
-          }, {
-            zh: '显示模态弹窗',
-            url: 'modal/modal'
-          }, {
-            zh: '显示消息提示框',
-            url: 'toast/toast'
-          }
-        ]
-      }, {
         id: 'device',
         name: '设备',
         open: false,
         pages: [
           {
-            zh: '获取手机系统信息',
-            url: 'get-system-info/get-system-info'
-          }, {
-            zh: '获取手机网络状态',
-            url: 'get-network-type/get-network-type'
-          }, {
-            zh: '监听重力感应数据',
-            url: 'on-accelerometer-change/on-accelerometer-change'
-          }, {
-            zh: '监听罗盘数据',
-            url: 'on-compass-change/on-compass-change'
-          }, {
-            zh: '打电话',
-            url: 'make-phone-call/make-phone-call'
-          }, {
+            zh: '网络状态',
+            url: 'Device/getNetworkType/get-network-type',
+          },
+          {
+            zh: '系统信息',
+            url: 'Device/getSystemInfo/get-system-info',
+          },
+          {
+            zh: '加速度计',
+            url: 'Device/accelerometer/on-accelerometer-change'
+          }, 
+          {
+            zh: '罗盘',
+            url: 'Device/compass/on-compass-change',
+          }, 
+          {
+            zh: '拨打电话',
+            url: 'Device/makePhoneCall/make-phone-call'
+          }, 
+          {
             zh: '扫码',
-            url: 'scan-code/scan-code'
+            url: 'Device/scanCode/scan-code'
           }
         ]
       }, {
-        id: 'network',
-        name: '网络',
+        id: 'file',
+        name: '文件',
         open: false,
         pages: [
           {
-            zh: '发起一个请求',
-            url: 'request/request'
-          }, {
-            zh: 'WebSocket',
-            url: 'web-socket/web-socket'
-          }, {
-            zh: '上传文件',
-            url: 'upload-file/upload-file'
-          }, {
-            zh: '下载文件',
-            url: 'download-file/download-file'
+            zh: '文件',
+            url: 'File/file'
+          }
+        ]
+      }, {
+        id: 'interface',
+        name: '界面',
+        open: false,
+        pages: [
+          {
+            zh: '提示框',
+            url: 'Interface/toast/toast'
+          },
+          {
+            zh: '模态框',
+            url: 'Interface/modal/modal'
+          },
+          {
+            zh: '操作菜单',
+            url: 'Interface/actionSheet/action-sheet'
+          },
+          {
+            zh: '导航条',
+            url: 'Interface/navigationBar/navigation-bar-loading'
+          },
+          {
+            zh: '导航',
+            url: 'Interface/navigator/navigator'
+          },
+          {
+            zh: '动画',
+            url: 'Interface/animation/animation'
+          },
+          {
+            zh: '页面滚动',
+            url: 'Interface/scrollPage/index'
+          },
+          {
+            zh: '绘图',
+            url: 'Interface/canvas/canvas'
+          },
+          {
+            zh: '下拉刷新',
+            url: 'Interface/pullDownRefresh/pull-down-refresh'
+          }
+        ]
+      }, {
+        id: 'location',
+        name: '位置',
+        open: false,
+        pages: [
+          {
+            zh: '获取位置',
+            url: 'Location/getLocation/get-location'
+          }, 
+          {
+            zh: '选择位置',
+            url: 'Location/chooseLocation/choose-location'
+          }, 
+          {
+            zh: '查看位置',
+            url: 'Location/openLocation/open-location'
+          }, 
+          {
+            zh: '地图组件控制',
+            url: 'Location/mapManager/index'
           }
         ]
       }, {
@@ -90,47 +113,51 @@ Page({
         pages: [
           {
             zh: '图片',
-            url: 'image/image'
-          }, {
-            zh: '录音',
-            url: 'voice/voice'
-          }, {
-            zh: '背景音频',
-            url: 'background-audio/background-audio'
-          }, {
-            zh: '文件',
-            url: 'file/file'
-          }, {
-            zh: '视频',
-            url: 'video/video'
-          }, {
-            zh: '视频管理',
-            url: 'videoManager/index'
-          }
-        ]
-      }, {
-        id: 'location',
-        name: '位置',
-        open: false,
-        pages: [
+            url: 'Media/image/image'
+          }, 
           {
-            zh: '获取当前位置',
-            url: 'get-location/get-location'
-          }, {
-            zh: '使用原生地图查看位置',
-            url: 'open-location/open-location'
-          }, {
-            zh: '使用原生地图选择位置',
-            url: 'choose-location/choose-location'
-          }, {
-            zh: '控制地图组件',
-            url: 'mapManager/index'
+            zh: '音频播放控制',
+            url: 'Media/voice/voice'
+          }, 
+          {
+            zh: '音乐播放控制',
+            url: 'Media/backgroundAudio/background-audio'
+          }, 
+          {
+            zh: '视频',
+            url: 'Media/video/video'
+          }, 
+          {
+            zh: '视频组件控制',
+            url: 'Media/videoManager/index'
           }
         ]
       }, {
         id: 'storage',
         name: '数据缓存',
-        url: 'storage/storage'
+        url: 'Storage/storage'
+      }, {
+        id: 'network',
+        name: '网络',
+        open: false,
+        pages: [
+          {
+            zh: '发起请求',
+            url: 'Network/request/request'
+          },
+          {
+            zh: '上传文件',
+            url: 'Network/uploadFile/upload-file'
+          },
+          {
+            zh: '下载文件',
+            url: 'Network/downloadFile/download-file'
+          },
+          {
+            zh: 'websocket',
+            url: 'Network/websocket/web-socket'
+          }
+        ]
       }
     ]
   },
